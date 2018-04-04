@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700|Droid+Serif:400,400italic);
+
+.twitch-bg {
+  background-color: #6441a5;
+}
+
+.list-group-item > a {
+  color: purple;
+}
+
+.card {
+  box-shadow: 5px 5px 20px 5px #222;
+}
+
+.card-title {
+  font-family: "Oswald";
+  font-size: 3rem;
+}

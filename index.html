@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Twitch JSON API</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+</head>
+
+<body class="twitch-bg">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 mx-auto">
+        <div class="card text-center mt-5 p-4">
+          <div class="card-body">
+            <h4 class="card-title">Twitch Streamers</h4>
+            <!-- status tabs -->
+            <ul class="nav nav-pills justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" href="#" id="all-streamers">All</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="online-streamers">Online</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="offline-streamers">Offline</a>
+              </li>
+            </ul>
+            <!-- main output -->
+            <ul class="list-group list-group-flush mt-4" id="output">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
